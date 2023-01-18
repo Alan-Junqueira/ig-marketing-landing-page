@@ -30,4 +30,15 @@ export const GlobalStyle = createGlobalStyle`
   button, a {
     cursor: pointer;
   }
+
+  svg .svg-elem-1 {
+  stroke-dashoffset: 279.751220703125px;
+  stroke-dasharray: 279.751220703125px;
+  -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+          transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+}
+
+svg.active .svg-elem-1 {
+  stroke-dashoffset: 0;
+}
 `;
