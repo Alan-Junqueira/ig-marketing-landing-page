@@ -55,6 +55,8 @@ export const HeaderTopNav = styled.nav`
     letter-spacing: -0.04em;
 
     color: ${(props) => props.theme.colors.white};
+
+    cursor: context-menu;
   }
 
   ul {
