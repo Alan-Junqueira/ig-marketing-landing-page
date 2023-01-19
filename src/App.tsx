@@ -4,6 +4,7 @@ import { Countdown } from './components/Countdown';
 import { Feature } from './components/Feature';
 import { Header } from './components/Header';
 import { Services } from './components/Services';
+import { Solutions } from './components/Solutions';
 import { GlobalStyle } from './styles/global';
 import { defaultTheme } from './styles/themes/default';
 
@@ -16,6 +17,7 @@ function App() {
       <Community />
       <Services />
       <Countdown />
+      <Solutions />
     </ThemeProvider>
   );
 }
