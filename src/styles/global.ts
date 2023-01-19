@@ -3,7 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   :root {
     font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
   }
   *{
     margin: 0;
@@ -15,6 +14,8 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0
   }
   body {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     background-color: ${(props) => props.theme.colors.white};
     color: #1F1F26;
     -webkit-font-smoothing: antialiased
