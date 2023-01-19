@@ -5,6 +5,7 @@ import { Feature } from './components/Feature';
 import { Header } from './components/Header';
 import { Services } from './components/Services';
 import { Solutions } from './components/Solutions';
+import { Testimonial } from './components/Testimonial';
 import { GlobalStyle } from './styles/global';
 import { defaultTheme } from './styles/themes/default';
 
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Countdown />
       <Solutions />
+      <Testimonial />
     </ThemeProvider>
   );
 }
