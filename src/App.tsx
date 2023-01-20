@@ -3,6 +3,8 @@ import { Community } from './components/Community';
 import { Countdown } from './components/Countdown';
 import { Feature } from './components/Feature';
 import { Header } from './components/Header';
+import { Newsletter } from './components/Newsletter';
+import { Footer } from './components/partials/Footer';
 import { Services } from './components/Services';
 import { Solutions } from './components/Solutions';
 import { Testimonial } from './components/Testimonial';
@@ -20,6 +22,8 @@ function App() {
       <Countdown />
       <Solutions />
       <Testimonial />
+      <Newsletter />
+      <Footer />
     </ThemeProvider>
   );
 }
